@@ -2,29 +2,27 @@
 requires-python = ">=3.10"
 
 [tool.poetry]
-name = "jockey"
-version = "0.2.0"
+name = "argparse-markdown"
+version = "0.0.1"
 description = "A simple tool for documenting argparse objects using markdown."
 readme = "README.md"
 authors = [
-    "Connor Chamberlain <the@johnlettman.com>"
+    "John Lettman <the@johnlettman.com>"
 ]
 
 classifiers = [
-        "Development Status :: 4 - Beta",
+    "Development Status :: 4 - Beta",
     "Environment :: Console",
-        "Intended Audience :: Developers",
+    "Intended Audience :: Developers",
     "Operating System :: Microsoft :: Windows",
     "Operating System :: MacOS",
     "Operating System :: POSIX :: Linux",
-
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Operating System :: POSIX :: Linux",
-        "Typing :: Typed",
-
+    "Typing :: Typed",
 ]
 
 packages = [
