@@ -31,6 +31,9 @@ packages = [
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.13"
+strip-ansi = "^0.1.1"
+rich-tools = { git = "https://github.com/johnlettman/pr-rich_tools", branch = "fix/poetry" }
+markdown-helper = "^1.0.2"
 
 [tool.poetry.group.dev.dependencies]
 isort = "^5.12.0"
